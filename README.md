@@ -2,7 +2,7 @@
 
 A Joplin plugin for tracking time on writing projects with full YAML frontmatter support.
 
-It is heavily inspired [Alon Diament's ](https://joplinapp.org/plugins/plugin/joplin.plugin.alondmnt.time-slip/?search=author%3D%22Alon%20Diament%22%20max-results%3D20) [Time Slip](https://github.com/alondmnt/joplin-plugin-time-slip) but adjusted for my personal needs as a writer - which mainly means it supports:
+It is heavily inspired [Alon Diament's ](https://joplinapp.org/plugins/plugin/joplin.plugin.alondmnt.time-slip/?search=author%3D%22Alon%20Diament%22%20max-results%3D20) &nbsp; [Time Slip](https://github.com/alondmnt/joplin-plugin-time-slip) but adjusted for my personal needs as a writer - which mainly means it supports:
 	- **frontmatter-overview queries** (it allows a YAML frontmatter to exist within the time-tracking note)
 	- **automatically updates** YAML headers	
 	- **automatically calculates** specific values

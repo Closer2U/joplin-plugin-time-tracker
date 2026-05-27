@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "id": "io.arena.timetracker",
+  "app_min_version": "2.13",
+  "platforms": [
+    "desktop"
+  ],
+  "version": "0.1.7",
+  "name": "Time Tracker with Frontmatter",
+  "description": "Track time for writing projects with frontmatter support. Calculate session durations, weekly totals, accumulated hours, and TpT.",
+  "author": "Arena.ai",
+  "homepage_url": "https://github.com/arena/timetracker",
+  "repository_url": "https://github.com/arena/timetracker",
+  "keywords": [
+    "time",
+    "tracking",
+    "frontmatter",
+    "writing"
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "screenshots": [],
+  "icons": {}
+}

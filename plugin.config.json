@@ -1,0 +1,6 @@
+{
+  "extraScripts": [
+    "ui/panel.js",
+    "ui/panel.css"
+  ]
+}

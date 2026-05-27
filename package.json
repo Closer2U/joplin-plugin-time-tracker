@@ -1,0 +1,32 @@
+{
+  "name": "joplin-plugin-time-tracker",
+  "version": "0.1.7",
+  "description": "Time tracking plugin with frontmatter support for writing projects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && npx webpack --mode=production && mkdir -p dist/ui && cp src/manifest.json dist/ && cp src/ui/panel.css dist/ui/ && cp src/ui/panel.js dist/ui/ && echo Build done",
+    "dist": "npm run build && mkdir -p publish && rm -f publish/*.jpl && cd dist && V=$(node -e \"console.log(require('../package.json').version)\") && tar -cf ../publish/io.arena.timetracker_v${V}.jpl * && cd .. && cp src/manifest.json publish/ && echo \"JPL: publish/io.arena.timetracker_v${V}.jpl\"",
+    "dev": "webpack --mode=development --watch",
+    "updateVersion": "node -e \"const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json','utf8'));const man=JSON.parse(fs.readFileSync('src/manifest.json','utf8'));const v=p.version.split('.');v[2]=String(Number(v[2])+1);p.version=v.join('.');man.version=p.version;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\\\\n');fs.writeFileSync('src/manifest.json',JSON.stringify(man,null,2)+'\\\\n');console.log('Version -> '+p.version)\""
+  },
+  "keywords": [
+    "joplin-plugin",
+    "time-tracking",
+    "frontmatter",
+    "writing",
+    "productivity"
+  ],
+  "author": "Arena.ai Agent Mode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.3.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
