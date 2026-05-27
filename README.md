@@ -168,3 +168,14 @@ This is a personal project and nothing more. It was heavily supported by AI and 
 ## License
 
 MIT
+
+<div align="center">
+
+<pre align="center">
+
+╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╮
+·      HAVE FUN TRACKING      ·
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯
+</pre>
+
+</div>
