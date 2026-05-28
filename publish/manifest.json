@@ -5,12 +5,12 @@
   "platforms": [
     "desktop"
   ],
-  "version": "0.1.7",
+  "version": "0.1.9",
   "name": "Time Tracker with Frontmatter",
   "description": "Track time for writing projects with frontmatter support. Calculate session durations, weekly totals, accumulated hours, and TpT.",
   "author": "Arena.ai",
-  "homepage_url": "https://github.com/arena/timetracker",
-  "repository_url": "https://github.com/arena/timetracker",
+  "homepage_url": "https://github.com/closer2u/joplin-plugin-time-tracker",
+  "repository_url": "https://github.com/closer2u/joplin-plugin-time-tracker",
   "keywords": [
     "time",
     "tracking",
