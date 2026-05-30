@@ -9,6 +9,10 @@ It is heavily inspired [Alon Diament's ](https://joplinapp.org/plugins/plugin/jo
 
 Track your writing sessions, see weekly breakdowns, calculate accumulated totals, and compute **time per thousand words (TpT)** — all stored directly in your note's frontmatter and markdown table.
 
+> [!TIP]
+> Version 0.1.10 supports mobile (but is not battle-tested yet).
+
+
 <div align="center" style="display:flex;flex-direction:column;justify-content:center; align-items:flex-start; flex-wrap: wrap;">
 <img style="flex: 1 1 65%" src="_screenshots/TimeTracker_stopped.png" width=182></img> 
 <img style="flex: 1 1 35%" src="_screenshots/Editor-Viewer.png" width=800></img>
